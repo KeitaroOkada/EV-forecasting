@@ -19,7 +19,7 @@ function setEVModel(LongTermPastData)
     if strcmp(LongTermPastData, 'NULL') == 0    % if the filename is not null
         T = readtable(LongTermPastData);
     else  % if the fine name is null
-        flag = -1;  % return er\ror
+        flag = -1;  % return error
         return
     end 
      
